@@ -4,6 +4,7 @@ import "fmt"
 
 // https://go.dev/ref/spec#Array_types
 // 特徴： 要素数を後から変更できない
+// スライス型であれば変更可能
 func main() {
 	var arr1 [3]int
 	fmt.Println(arr1) // [0 0 0]
