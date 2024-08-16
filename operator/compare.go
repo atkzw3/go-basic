@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// https://go.dev/ref/spec#Operators
+
 func main() {
 	is := 1 == 1
 	fmt.Println(is)
