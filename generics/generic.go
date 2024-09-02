@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// https://go.dev/doc/tutorial/generics
+
 func PrintSliceInt(i []int) {
 	for _, v := range i {
 		fmt.Println(v)
