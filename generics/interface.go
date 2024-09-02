@@ -5,10 +5,6 @@ import (
 	"strconv"
 )
 
-type Stringer interface {
-	String() string
-}
-
 func f[T fmt.Stringer](xs []T) []string {
 	result := []string{}
 	for _, x := range xs {
