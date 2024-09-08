@@ -52,4 +52,6 @@ func main() {
 		fmt.Println("i2 is 1")
 	}
 	mA.Unlock()
+
+	// https://zenn.dev/yukihaga/scraps/2af8987236c807
 }
